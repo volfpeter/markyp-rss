@@ -8,7 +8,38 @@ The project is listed on the Python Package Index, it can be installed simply by
 
 ## Getting started
 
-TODO
+Creating an RSS 2.0 feed using `markyp` is as easy an instantiating the required RSS elements and converting the `RSS` object to string when the feed is ready.
+
+```Python
+from typing import List, Optional
+
+from markyp_rss.elements import Category, Channel, Image, Item, RSS
+
+def get_items() -> Optional[List[Item]]:
+    """Returns the items to be included in the channel."""
+    return [
+        Item("First", "https://markyp.demo/first"),
+        Item("Second", "https://markyp.demo/second"),
+        Item("Third", "https://markyp.demo/third")
+    ]
+
+rss = RSS(
+    Channel(
+        "markyp-rss RSS 2.0 Demo Channel",
+        "https://markyp.demo/channel.rss",
+        "RSS 2.0 example built using markyp-rss.",
+        language="en-us",
+        image=Image("markyp-rss RSS 2.0 Demo Channel", "https://markyp.demo/channel.jpeg", "https://markyp.demo/channel.rss"),
+        ttl=40,
+        categories=[Category("Demo"), Category("Example")],
+        items=get_items()
+    )
+)
+
+print(rss)
+```
+
+For more details, please have a look at the `markyp_rss.elements` module.
 
 ## Community guidelines
 
