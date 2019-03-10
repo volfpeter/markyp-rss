@@ -1,6 +1,6 @@
 # markyp-rss
 
-`markyp`-based RSS 2.0 implementation.
+[markyp](https://github.com/volfpeter/markyp)-based RSS 2.0 implementation.
 
 ## Installation
 
