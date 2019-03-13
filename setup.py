@@ -12,7 +12,7 @@ with open(path.join(path.abspath(path.dirname(__file__)), "src", "markyp_rss", "
     version = match.group(1) if match else "0.0.0"
 
 setup(
-    name="markyp",
+    name="markyp-rss",
     version=version,
     description="markyp-based RSS 2.0 implementation.",
     long_description=readme,
