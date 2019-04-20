@@ -8,6 +8,9 @@ from markyp import IElement, PropertyDict
 from markyp.formatters import format_properties, xml_escape
 
 
+__all__ = ("Category", "Cloud", "Enclosure", "GUID", "Image", "Source", "Item", "Channel", "RSS")
+
+
 class Category(IElement):
     """
     The category definition of an item.
