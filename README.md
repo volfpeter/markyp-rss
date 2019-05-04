@@ -10,7 +10,7 @@ The project is listed on the Python Package Index, it can be installed simply by
 
 If you are not familiar with the basic concepts of `markyp`, please start by having a look at its documentation [here](https://github.com/volfpeter/markyp).
 
-Creating an RSS 2.0 feed using `markyp-rss` is as easy an instantiating the required RSS elements and converting the `RSS` object to string when the feed is ready.
+Creating an RSS 2.0 feed using `markyp-rss` is as easy as instantiating the required RSS elements and converting the `RSS` object to string when the feed is ready.
 
 ```Python
 from typing import List, Optional
