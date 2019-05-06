@@ -9,8 +9,10 @@ mypy = "*"
 pytest-cov = "*"
 sphinx = "*"
 recommonmark = "*"
+pylint = "*"
 
 [packages]
+markyp = "*"
 
 [requires]
 python_version = "3.7"
