@@ -1,3 +1,7 @@
+[![Downloads](https://pepy.tech/badge/markyp-rss)](https://pepy.tech/project/markyp-rss)
+[![Downloads](https://pepy.tech/badge/markyp-rss/month)](https://pepy.tech/project/markyp-rss/month)
+[![Downloads](https://pepy.tech/badge/markyp-rss/week)](https://pepy.tech/project/markyp-rss/week)
+
 # markyp-rss
 
 [markyp](https://github.com/volfpeter/markyp)-based RSS 2.0 implementation.
