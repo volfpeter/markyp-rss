@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2abf3d3b3f668c4345e53c2b45bda724983b23c0f0766f10662cf4c3d00fb7da"
+            "sha256": "ffcec3952a782e46336c856df1dd0a17b526a19959cb121a835d6791acbcf426"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -17,12 +17,8 @@
     },
     "default": {
         "markyp": {
-            "hashes": [
-                "sha256:2462f536f39a5e41811cb3560150a30b4b618c311e010d692eb9c79b6085bef2",
-                "sha256:a712be80334a6c880213ca4a11219720757a7e0905052008d430b91ecc940ab3"
-            ],
-            "index": "pypi",
-            "version": "==0.1904.0"
+            "editable": true,
+            "path": "./../markyp"
         }
     },
     "develop": {
