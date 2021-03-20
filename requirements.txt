@@ -1,1 +1,2 @@
-markyp>=0.1910
+-i https://pypi.org/simple/
+markyp==0.1909.0
